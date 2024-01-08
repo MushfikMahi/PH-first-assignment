@@ -237,8 +237,6 @@ body {
 #holiday .holiday-img-right {
     display: flex;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: right;
 }
 
 #holiday .holiday-img-right .discount-img {
@@ -251,7 +249,7 @@ body {
     background-position: right;
     text-align: left;
     top: 170px;
-    right: 100px;
+    right: 55px;
 }
 
 #holiday .holiday-img-right .shopping-img {
@@ -259,7 +257,7 @@ body {
     height: 433px;
     padding-top: 57px;
     position: absolute;
-    padding-left: 33px;
+    padding-left: 85px;
 }
 
 .holiday-img {
