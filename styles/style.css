@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    width: 1600px;
+}
+.container{
+    width: 82%;
+    margin: 0 auto;
+}
+.c-red{
+    color: #F00;
+}
+.banner > p{
+font-size: 32px;
+font-weight: 400;
+}
+.banner > h1{
+font-size: 72px;
+font-weight: 900;
+padding: 0px 200px;
+}
+.banner{
+    text-align: center;
+    background-image: url('/iamges/Banner\ Image.png');
+    color: #fff;
+    padding: 200px 0px;
+    background-repeat: no-repeat; 
+    font-size: 32px;
+}
+#off .holiday{
+    text-align: center;
+}
+#off .holiday > h1{
+    color: #F00;
+font-size: 88px;
+font-weight: 700;
+}
+#off .holiday > p{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+#off .holiday > h2{
+    color: #070211;
+font-size: 48px;
+font-weight: 700;
+}
+#off .holiday > img{
+    width: 802.9px;
+    height: 500px;
+}
+#party .party{
+    display: flex;
+    background-image: url('/iamges/Vectorrr.png');
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: 70px 0px;
+}
+#party .party-left{
+    text-align: left;
+    color: #fff;
+    padding: 0px 100px;
+}
+#party .party-left > h1{
+font-size: 64px;
+font-weight: 900;
+letter-spacing: 7.04px;
+}
+#party .party-left > p{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+padding-right: 20px;
+padding-bottom: 15px;
+}
+#party .party-left .party-btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    border: none;
+}
+#party .party-left .party-btn:hover{
+    background-color: #070211;
+    color: #fff;
+}
+#party .party-right{
+    padding-right: 100px;
+}
+#session .session{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 100px 0px;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+#session .session > h3{
+    color: #F00;
+    padding-bottom: 25px;
+}
+#session .session .session-black{
+    color: #070211;
+}
+#session .session .session-btn{
+    padding: 16px 32px;
+    font-size: 25px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    border: none;
+    background-color: #F00;
+    color: #fff;
+}
+#session .session .session-btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+#best-offer{
+    display: flex;
+    color: rgba(7, 2, 17, 0.60);
+    align-items: center;
+}
+#best-offer .offer-description{
+    margin: 0;
+}
+#best-offer .offer-description .offer-type{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+#best-offer .offer-description > p{
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 70%;
+}
+#best-offer .offer-description > h2{
+    color: #070211;
+    font-size: 52px;
+    font-weight: 800;
+    max-width: 70%;
+}
+#best-offer .offer-img{
+    border: 15px solid #F00;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+#best-offer .offer-year{
+padding-left: 60px;
+}
+#best-offer .offer-year > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+#best-offer .offer-year > h2{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+#holiday .holiday-text{
+    padding: 100px 200px;
+    text-align: center;
+}
+#holiday .holiday-text > p{
+    color: #070211;
+font-size: 24px;
+font-weight: 500;
+}
+#holiday .holiday-text > h1{
+    color: #070211;
+font-size: 72px;
+font-weight: 900;
+}
+#holiday .holiday-text .holiday-describtion{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 500;
+}
+#holiday .holiday-img-left{
+    padding-top: 50px;
+}
+#holiday .holiday-img-right{
+    display: flex;
+    /* padding-bottom: 230px; */
+    background-image: url('/iamges/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+}
+.holiday-img{
+    background-image: url('/iamges/Rectangle\ 2.png');
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#gallary{
+    text-align: left;
+    padding: 100px 0px;
+}
+/* #gallary > p{
+    color: rgb(8, 8, 8);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+} */
+#gallary > h1{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+}
+#gallary .gallary-describtion{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+width: 896px;
+padding-bottom: 30px;
+}
+#gallary .gallary-img-top{
+    display: flex;
+    border-radius: 16px;
+    justify-content: space-around;
+padding: 10px 0px;
+}
+#gallary .gallary-img-bottom{
+    display: flex;
+    border-radius: 16px;
+    justify-content: space-around;
+    /* padding-bottom: 10px; */
+}
+#subscribe{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+#subscribe .subscribe > h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+#subscribe .subscribe > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 150px;
+}
+#subscribe .subscribe #email{
+    border: none;
+    border-radius: 50px;
+    width: 648px;
+    height: 72px;
+    font-size: 30px;
+    padding-left: 30px;
+    border-radius: 50px 0px 0px 50px;
+}
+#subscribe .email-input{
+    display: flex;
+  align-items: center;
+  padding-left: 250px;
+}
+#subscribe .email-input .subscribe-button{
+    padding: 10px 20px;
+  border-radius: 0 50px 50px 0;
+  background-color: #F00;
+  border: none;
+  height: 72px;
+  font-size: 26px;
+  color: #fff;
+  width: 210px; 
+}
+#footer{
+    background-color: black;
+    color: #fff;
+    padding-top: 30px;
+    margin-top: 60px;
+}
+#footer .address{
+    text-align: left;
+    padding-right: 400px;
+
+}
+#footer .number{
+    display: flex;
+}
+#footer .website{
+    display: flex;
+}
+#footer .upper-foot{
+    display: flex;
+}
+#footer .social-link{
+    text-align: center;
+}
+#footer .footer-line{
+    border: 1px solid #313436;
+    margin: 30px;
+}
+#footer .copy-right{
+    display: flex;
+    justify-content: space-between;
+}
+
